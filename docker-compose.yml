@@ -1,0 +1,6 @@
+services:
+  calculator:
+    build: .
+    container_name: calculator-api
+    ports:
+      - "3000:3000"
