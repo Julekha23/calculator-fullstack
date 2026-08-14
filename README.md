@@ -60,6 +60,24 @@ cd calculator-api
 go mod tidy
 go run main.go
 ```
+## Running with Docker
+
+### Build and start the containers
+
+```bash
+docker compose up --build
+```
+
+Or, if using an older Docker Compose version:
+
+```bash
+docker-compose up --build
+```
+
+### Stop the containers
+
+```bash
+docker compose down
 
 The API will run on:
 
@@ -75,18 +93,12 @@ flutter pub get
 flutter run
 ```
 
-## Screenshots
-
-Add screenshots here.
 
 ## Future Improvements
-
 - Scientific calculator
 - Calculation history
-- Dark mode
 - Unit conversion
 - Responsive UI
-- Docker support
 - Authentication (optional)
 
 ## Author
